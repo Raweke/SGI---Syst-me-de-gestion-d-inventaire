@@ -1,0 +1,329 @@
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+
+body#loginBody{
+    background: url('../images/bglogin.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial;
+}
+
+body{
+    font-family: Arial;
+}
+
+
+.loginHeader{
+    text-align: center; 
+    margin-bottom: 60px;
+}
+
+.loginHeader h1{
+     font-size: 60px;
+    color: #FFD700;
+    padding: 0px;
+    margin: 0px;
+}
+
+.loginHeader p{
+    color: #B0C4DE;
+    font-size: 50px;
+    text-transform: uppercase;
+    border-bottom: 5px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.loginHeader p:after{
+    content: '';
+    display: block;
+    height: 5px;
+    background: #FFD700;
+    margin:0 auto; 
+}
+
+.loginBody form{
+    margin: 0 auto;
+    width: 450px;
+    background: rgba(0, 0, 0, .5);
+    padding: 50px;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+}
+
+.loginContainer{
+    margin-top: 30px;
+}
+ 
+.loginContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.loginContainer input{
+    height: 25px;
+    width: 100%;
+    border: 2px solid #1e9acb;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+.loginButtonContainer{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.loginButtonContainer button{
+    font-size: 20px;
+    padding: 10px 40px;
+    background: #1e9acb;
+    border: none;
+    color: #fff;
+}
+
+.header{
+    width: 100%;
+    background: #FFD700 ;
+    padding: 10px 0px;
+    text-align: right;
+}
+
+.header a{
+    font-size: 20px;
+    color: #FFF;
+    padding: 5px 10px;
+    text-decoration: none;
+    border:2px solid transparent;
+    border-bottom: 2px solid #fff;
+}
+
+.header a :hover{
+    border-radius: 5px;
+    border: 2px solid #FFF;
+}
+
+.banner{
+    background: url('../images/banner.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 80vh;
+}
+
+.homepageContainer{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.bannerHeader h1{
+    font-size: 90px;
+    color: #FFD700;
+    line-height: 100%;
+}
+
+.bannerHeader p{
+    font-size: 30px;
+    color: #FFD700;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+.bannerTxt{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.bannerIcons{
+    margin-top: 150px;
+}
+
+.bannerIcons a{
+    font-size: 23px;
+    margin-left: 40px;
+    padding: 7px 15px;
+    background: rgba(0, 0, 0, 0.5) ;
+    color: #797878;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.bannerIcons a:first-child{
+    margin-left: 0px;
+}
+
+.bannerIcons a:hover{
+    color: #FFF;
+    font-size: 25px;
+    background: #FFD700;
+    transition: .5s all ;
+}
+
+.homepageFeatures{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px;
+}
+
+.homepageFeature{
+    padding: 10px 20px;
+    text-align: center;
+    width: 33,33%;
+}
+
+.homepageFeature:hover{
+    border-top: 3px solid #FFD700;
+    border-bottom: 3px solid #FFD700;
+}
+
+.homepageFeature span.featureIcon{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    font-size: 50px;
+    background: #FFD700;
+    color: #FFF;
+    padding-top: 5px;
+    border-radius: 50%;
+    margin-bottom:20px ;
+}
+
+.homepageFeature h3.featureTitle{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.homepageFeature p.featureDescription{
+    color: #848484;
+}
+
+.footer{
+    background: #E3E3E3;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.footer a{
+    color: #848484;
+    margin-left: 30px;
+}
+
+
+/*dashboard*/
+
+#dashboardMainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard_sidebar{
+    width: 20%;
+    background: #323232;
+    height: 100vh;
+}
+
+.dashboard_content_container{
+    width: 70%;
+}
+
+.dashboard_logo{
+    color: #FFD700;
+    font-size: 60px;
+    text-align: center;
+}
+
+.dashboard_sidebar_user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFF;
+}
+
+.dashboard_sidebar_user img {
+    width: 80px;   
+    display: inline-block;            
+    border-radius: 50%;       
+    border: 2px solid #FFD700;  
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.dashboard_sidebar_user span{
+    top: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFF;
+    display: inline-block; 
+}
+
+ul.dashboard_menu_lists {
+    list-style-type: none; 
+    padding: 20px;       
+    margin-top: 20px;
+}
+
+.dashboard_menu_lists li{
+    padding: 15px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.dashboard_menu_lists li a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+}
+
+.dashboard_menu_lists li :hover{
+    background: #FFD700;
+    color: #FFF;
+}
+
+.dashboard_menu_lists li a i{
+    font-size: 12px;
+}
+
+ul.dashboard_menu_lists li a.menuActive{
+    background: #FFD700;
+    color: #FFF;
+}
+
+
+.dashboard_topNav{
+    background: #FFF;
+    padding: 20px;
+}
+
+.dashboard_topNav a{
+    color: #848383;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a#decoBtn{
+    float: right;
+}
+
+.dashboard_content_main{
+    background: #FFF;
+    height: 100%;
+    min-height: 800px;
+}
+
+#errorMessage{
+    background: #fff;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    padding: 11px;
+}
